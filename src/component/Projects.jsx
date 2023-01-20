@@ -1,4 +1,5 @@
 import React from 'react'
+import whereswaldo from '../assets/wheres_waldo.png'
 import cryptogram from '../assets/cryptogram.png'
 import shoppingCart from "../assets/shoppingCart.png"
 import whereswaldo from "../assets/dummy.jpeg"
