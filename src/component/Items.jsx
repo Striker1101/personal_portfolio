@@ -1,12 +1,13 @@
 import React from 'react'
-
+import left from '../assets/left.svg'
+import right from '../assets/right.svg'
 export default function Items() {
   return (
     <div className="skills" style={{textAlign: "center"}}>
         <h2 className="headereTwo">Skills</h2>
         <div className="itemContent">
           <div className="items">
-            <button className="next btn">Left</button>
+            <button className="next btn"><img src={left} alt='left'/></button>
             <div className="itemFlow">
               <div className="item">
                 <svg viewBox="0 0 128 128">
@@ -152,7 +153,7 @@ export default function Items() {
               </div>
            
             </div>
-            <button className="prev btn">Right</button>
+          <button className="prev btn"><img src={right} alt='right'/></button>
           </div>
         </div>
       </div>

@@ -49,7 +49,7 @@ export default function Homepage() {
           element.children[1].classList.remove("view");
         }
       });
-      console.log("here");
+      checkcolor();
     }
 
     window.addEventListener("scroll", checkIfInView);
@@ -63,13 +63,39 @@ export default function Homepage() {
     });
 
     const container = document.querySelector(".itemFlow");
-    console.log(container);
 
     setInterval(() => {
       //Please see this article to see how the below works
       // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
       container.insertBefore(container.firstChild, null);
-    }, 900);
+    }, 1500);
+
+    function checkcolor() {
+      let screen = window.scrollX + window.scrollY;
+      let body = document.querySelector("body");
+      if (screen >= 1000) {
+        body.style.backgroundColor = "lightblue";
+      } else {
+        body.style.backgroundColor = "lightgrey";
+      }
+    }
+    let toggle = true;
+    const form = document.getElementById("form");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const reply = document.getElementById("reply");
+      reply.style.display = "block";
+
+      setInterval(()=>{
+        if (toggle) {
+          reply.style.color = "red";
+          toggle = !toggle;
+        } else {
+          reply.style.color = "black";
+          toggle = !toggle;
+        }
+      }, 500)
+    });
   }, []);
   return (
     <div>

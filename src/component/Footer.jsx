@@ -11,7 +11,7 @@ export default function Footer() {
              opportunity, and if you have a question or just want to chat, feel free to send me a
              message and I will get back to you!
           </p>
-          <reply className="reply" style={{display: "none"}}>Thanks!! you would receive a reply soon </reply>
+          <reply id="reply" style={{display: "none"}}>Thanks!! you would receive a reply soon </reply>
           <form action="" id="form">
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="Name" /><br></br>
