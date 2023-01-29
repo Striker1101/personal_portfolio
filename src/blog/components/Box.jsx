@@ -9,7 +9,7 @@ export default function Box({setComments, postID}) {
             postData(`${process.env.NODE_ENV === 'development' ?
             process.env.REACT_APP_DEV_MODE 
             : process.env.REACT_APP_PRO_MODE}/posts/${postID}/comments`, { text })
-           .then((data) => {  
+           .then((data) => { 
             if(data.json.comments === undefined){
             }else{
                 setComments(data.json.comments)
@@ -25,12 +25,13 @@ export default function Box({setComments, postID}) {
            <h2 style={{textAlign:'center'}}>Comments</h2>
         <form ref={form} action="#" method="post">
             <div
-            style={{ width:'100%',
+            style={{
+               width:'100%',
             display:'flex',
              justifyContent:'center',
              flexDirection:'column',
              }} >
-            <textarea style={{}} name="text" id="text" cols="30" rows="5"></textarea>
+            <textarea style={{}} name="text" id="text" cols="50" rows="5"></textarea>
             <button  
             style={{
                 right:'-5px',

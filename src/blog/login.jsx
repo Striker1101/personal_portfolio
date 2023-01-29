@@ -18,10 +18,6 @@ export default function Login() {
            .then((data) => {
             if(data.json.token){
               localStorage.setItem('token', data.json.token)
-              if(data.json.user.role === 'admin'){
-                // to go dashboard
-               return console.log('dashboard')
-              }
              return navigate('/blog')
             }else{
               message.current = data.json.info.message
