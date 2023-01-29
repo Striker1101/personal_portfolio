@@ -43,7 +43,7 @@ export default function Projects() {
           className="workCardimg"
           src={shoppingCart}
           alt="shopping cart"
-          srcset=""
+          srcSet=""
         />
         <div className="workCardText">
           <h3 className="heading">Shopping Cart</h3>
@@ -71,7 +71,7 @@ export default function Projects() {
           className="workCardimg"
           src={whereswaldo}
           alt=""
-          srcset=""
+          srcSet=""
         />
         <div className="workCardText">
           <h3 className="heading">Wheres-Waldo</h3>
@@ -127,7 +127,7 @@ export default function Projects() {
           className="workCardimg"
           src={battleship}
           alt=""
-          srcset=""
+          srcSet=""
         />
         <div className="workCardText">
           <h3 className="heading">Battleship</h3>
@@ -157,7 +157,7 @@ export default function Projects() {
           className="workCardimg"
           src={library}
           alt=""
-          srcset=""
+          srcSet=""
         />
         <div className="workCardText">
           <h3 className="heading">Library app</h3>

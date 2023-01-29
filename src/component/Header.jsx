@@ -2,6 +2,7 @@ import React from 'react'
 import img from '../assets/use1.png'
 export default function Header() {
   return (
+    <>
     <header>
       <div className="header">
         <img id="profileImg" src={img} alt="" />
@@ -43,5 +44,6 @@ export default function Header() {
         </div>
       </div>
     </header>
+    </>
   )
 }

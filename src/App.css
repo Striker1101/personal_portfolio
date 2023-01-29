@@ -35,6 +35,13 @@ header {
   align-items: center;
   gap: 5px;
 }
+#bar {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content:right;
+}
 .header {
   position: relative;
 }

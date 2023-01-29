@@ -11,11 +11,11 @@ export default function Footer() {
              opportunity, and if you have a question or just want to chat, feel free to send me a
              message and I will get back to you!
           </p>
-          <reply id="reply" style={{display: "none"}}>Thanks!! you would receive a reply soon </reply>
+          <div id="reply" style={{display: "none"}}>Thanks!! you would receive a reply soon </div>
           <form action="" id="form">
-            <label for="name">Name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="Name" /><br></br>
-            <label for="email">Email:</label>
+            <label htmlFor="email">Email:</label>
             <input type="email" name="enail" id="email" placeholder="E-mail" /><br></br>
             <textarea
               name="message"
@@ -27,7 +27,7 @@ export default function Footer() {
             <input type="submit" aria-label="submit to owner" value="submit" />
           </form>
         </div>
-        <img id="profileImg" src={img} alt="" srcset="" />
+        <img id="profileImg" src={img} alt="" srcSet="" />
       </div>
       <footer>
       <span><p>Num: 081062438565</p></span>
