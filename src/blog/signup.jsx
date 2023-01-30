@@ -1,6 +1,6 @@
 import React,{useRef, useEffect, useState} from 'react'
 import {useNavigate} from 'react-router-dom';
-import postData from './post'
+import {postData} from './post'
 export default function Signup() {
     const form = useRef()
     const navigate = useNavigate()

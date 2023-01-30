@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import postData from '../post'
 export default function Box({setComments, postID}) {
     const form = useRef()
+    
+    
     useEffect(()=>{
         form.current.addEventListener('submit', (e)=>{
             const text = document.getElementById('text').value
@@ -17,6 +19,7 @@ export default function Box({setComments, postID}) {
             });
             form.current.reset()
         })
+       
     },[])
     
  return (
@@ -29,13 +32,12 @@ export default function Box({setComments, postID}) {
                width:'100%',
             display:'flex',
              justifyContent:'center',
-             flexDirection:'column',
+            
              }} >
             <textarea style={{}} name="text" id="text" cols="50" rows="5"></textarea>
             <button  
             style={{
                 right:'-5px',
-            position: 'absolute', 
             borderRadius:'50px',
              border:'transparent',
             backgroundColor:'transparent'}} 

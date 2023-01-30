@@ -19,7 +19,20 @@ return (
                             paddingBottom:'5px'
                         }}
                         >
-                        <h3>{comment.username}</h3>
+                            <div style={{
+                                display:'flex',
+                                justifyContent:'space-between'
+                            }}>
+                            <h3>{comment.username}</h3>
+                            <button style={{
+                                marginRight:'10px',
+                                marginTop:'5px',
+                                borderRadius:'5px',
+                                border:"transparent"
+                                
+                            }}>reply</button>
+                            </div>
+                        
                         <p>{comment.text}</p>
                         <p style={{float:'right'}}>{new Date(comment.createdAt).toDateString()}</p>
                         </div>
