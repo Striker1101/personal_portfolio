@@ -68,7 +68,7 @@ export default function Homepage() {
       //Please see this article to see how the below works
       // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
       container.insertBefore(container.firstChild, null);
-    }, 1500);
+    }, 2500);
 
     function checkcolor() {
       let screen = window.scrollX + window.scrollY;

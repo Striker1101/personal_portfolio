@@ -8,7 +8,7 @@ import battleship from "../assets/battleship.png"
 export default function Projects() {
   return (
     <>
-    <div className="cardContainer">
+    <div style={{margin:'0 30px'}} className="cardContainer">
     <h2 className="headereTwo">My Work</h2>
     <div className="cards">
       <div className="workcard">
@@ -26,7 +26,7 @@ export default function Projects() {
             <hr />
             <div>
               <p>react, firebase, photoshop, cogein widgets</p>
-              <div>
+              <div className='show'>
                 <a href="https://cryptogram-faa0f.firebaseapp.com/"
                   >Live Site</a
                 >
@@ -56,7 +56,7 @@ export default function Projects() {
             <hr />
             <div>
               <p>react</p>
-              <div>
+              <div className='show'>
                 <a href="https://striker1101.github.io/shopping-cart/"
                   >Live Site</a
                 >
@@ -85,7 +85,7 @@ export default function Projects() {
             <hr />
             <div>
               <p>React, Route-Router, firebass</p>
-              <div>
+              <div className='show'>
                 <a href="http://wheres-waldo-11d56.firebaseapp.com"
                   >Live Site</a
                 >
@@ -112,7 +112,7 @@ export default function Projects() {
             <hr />
             <div>
               <p>React</p>
-              <div>
+              <div className='show'>
                 <a href="http://">Live Site</a>
                 <a href="https://github.com/Striker1101/cv-template"
                   >Github</a
@@ -140,7 +140,7 @@ export default function Projects() {
             <hr />
             <div>
               <p>Webpack, Js</p>
-              <div>
+              <div className='show'>
                 <a href="https://striker1101.github.io/battleship/"
                   >Live Site</a
                 >
@@ -168,7 +168,7 @@ export default function Projects() {
             <hr />
             <div>
               <p>Express, Monogodb, Mongosse </p>
-              <div>
+              <div className='show'>
                 <a href="https://library-app.up.railway.app/catalog"
                   >Live Site</a
                 >

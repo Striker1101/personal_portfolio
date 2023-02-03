@@ -2,31 +2,28 @@ import React, { useEffect, useRef } from 'react'
 import postData from '../post'
 export default function Box({setComments, postID}) {
     const form = useRef()
-    
-    
-    useEffect(()=>{
-        form.current.addEventListener('submit', (e)=>{
-            const text = document.getElementById('text').value
-            e.preventDefault()
-            postData(`${process.env.NODE_ENV === 'development' ?
-            process.env.REACT_APP_DEV_MODE 
-            : process.env.REACT_APP_PRO_MODE}/posts/${postID}/comments`, { text })
-           .then((data) => { 
-            if(data.json.comments === undefined){
-            }else{
-                setComments(data.json.comments)
-            }
-            });
-            form.current.reset()
-        })
-       
-    },[])
+
+    function comment(e){
+        const text = document.getElementById('text').value
+        e.preventDefault()
+        postData(`${process.env.NODE_ENV === 'development' ?
+        process.env.REACT_APP_DEV_MODE 
+        : process.env.REACT_APP_PRO_MODE}/posts/${postID}/comments`, { text })
+       .then((data) => { 
+        if(data.json.comments === undefined){
+        }else{
+            setComments(data.json.comments)
+        }
+        });
+        form.current.reset()
+    }
     
  return (
 
     <div>
            <h2 style={{textAlign:'center'}}>Comments</h2>
-        <form ref={form} action="#" method="post">
+        <form onSubmit={(e)=>{comment(e)}}
+        ref={form} action="#" method="post">
             <div
             style={{
                width:'100%',

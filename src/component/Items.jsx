@@ -3,8 +3,8 @@ import left from '../assets/left.svg'
 import right from '../assets/right.svg'
 export default function Items() {
   return (
-    <div className="skills" style={{textAlign: "center"}}>
-        <h2 className="headereTwo">Skills</h2>
+    <div className="skills" >
+        <h2 style={{textAlign: "center"}} className="headereTwo">Skills</h2>
         <div className="itemContent">
           <div className="items">
             <button className="next btn"><img src={left} alt='left'/></button>
