@@ -4,7 +4,7 @@ This project was lunched december 21 with #create-react-app
 
 ### `Requirements`
 
-This project is web based so all you need is a recently updated browser ans you would be good to nav through all the features of this site
+This project is web based so all you need is a recently updated browser and you would be good to nav through all the features of this site
 
 ### `Purpose`
 
