@@ -1,6 +1,6 @@
-# Getting Started with personal portfolio project
+# [Getting Started with personal portfolio project](https://erose.vercel.app/)
 
-[This project was lunched december 21 with #create-react-app](https://erose.vercel.app/)
+This project was lunched december 21 with #create-react-app
 ## Available Scripts
 
 In the project directory, you can run:
