@@ -9,20 +9,24 @@ export default function Homepage() {
       " ",
       "this",
       " ",
-      "Eromosele",
+      "Goodluck",
       " ",
       "am",
       " ",
       "a",
       " ",
-      "web",
+      "Full",
       " ",
-      "developer",
+      "Stack",
+      " ",
+      "Web",
+      " ",
+      "Developer",
     ];
     const letterShow = setInterval(() => {
       header.textContent += text[count];
       count++;
-      if (count >= 12) {
+      if (count >= 16) {
         clearInterval(letterShow);
         downArrow.style.visibility = "visible";
       }
@@ -73,7 +77,7 @@ export default function Homepage() {
     function checkcolor() {
       let screen = window.scrollX + window.scrollY;
       let body = document.querySelector("body");
-      if (screen >= 1000) {
+      if (screen >= 1200) {
         body.style.backgroundColor = "lightblue";
       } else {
         body.style.backgroundColor = "lightgrey";

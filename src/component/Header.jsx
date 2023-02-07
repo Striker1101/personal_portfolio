@@ -24,6 +24,11 @@ export default function Header() {
           </p>
         </div>
         <div className="links">
+          <a href="https://drive.google.com/file/d/18q_6YhiHzMoCPosp6Dhc3KCoAZ3Bp-Xl/view?usp=sharing">
+          <button style={{borderRadius:'50px', textAlign:'center', height:'30px', width:'30px', 
+              border:'1px solid blue', cursor:'pointer'}} type="submit">CV</button>
+          </a>
+          
           <a href="https://github.com/Striker1101"
             ><img
             alt='github'

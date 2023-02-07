@@ -10,9 +10,14 @@ const date = new Date(post.date)
      backgroundColor:'whitesmoke',
        width:'80vw',
         flexDirection:'column',
-        borderRadius:'15px'
+        borderRadius:'15px',
+        overflow:'hidden'
+
         }}>
-      <h2>{post.title}</h2>
+      <div style={{position:'relative'}}>
+        <img style={{marginTop:'5px'}} src={post.imageUrl} alt="phototag" />
+      <h2 style={{textAlign:'center', position:'relative'}}>{post.title}</h2>
+      </div>
         <hr style={{width:'70vw'}}></hr>
       <p>{post.summary}</p>
       <div style={{ width:'100%'}}>

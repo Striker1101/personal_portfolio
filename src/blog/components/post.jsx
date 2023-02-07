@@ -8,7 +8,9 @@ export default function Post({post}) {
             {post.title.toUpperCase()}
         </h1>
         <div className='content'>
-        {/* content goes here */}
+          <p>
+          {post.content}
+          </p>
         </div>
         <h5 
         style={{float: 'right'}}>{new Date(post.date).toDateString()}</h5>
