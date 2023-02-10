@@ -1,0 +1,5 @@
+.search:hover {
+  transform: scale(0.98);
+  box-shadow: 5px 0 10px black ;
+}
+
