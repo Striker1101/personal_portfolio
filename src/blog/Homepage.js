@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import Loading from "./components/Loading";
 import { Link } from "react-router-dom";
 export default function Index({ posts, setPosts }) {
   return (
@@ -19,7 +20,7 @@ export default function Index({ posts, setPosts }) {
             })}
           </div>
         ) : (
-          "loading"
+          <Loading />
         )}
       </div>
     </div>

@@ -32,8 +32,7 @@ export default function Login() {
   }, []);
   return (
     <div>
-
-      <div style={{position:'absolute',zIndex:'-3'}}>
+      <div style={{ position: "absolute", zIndex: "-3" }}>
         <Animate />
       </div>
       <form
@@ -42,7 +41,7 @@ export default function Login() {
           e.preventDefault();
         }}
         style={{
-            zIndex:'5',
+          zIndex: "5",
           display: "flex",
           flexDirection: "column",
           height: "100vh",
@@ -59,6 +58,7 @@ export default function Login() {
             borderRadius: "10px",
           }}
         >
+          <h2 style={{ textAlign: "center" }}>Sign in your Accounts</h2>
           <h4 style={{ textAlign: "center", color: "red" }}>
             {message.current}
           </h4>

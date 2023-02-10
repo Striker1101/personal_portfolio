@@ -3,3 +3,8 @@
   box-shadow: 5px 0 10px black ;
 }
 
+.loading {
+  background: url(https://media.giphy.com/media/sSgvbe1m3n93G/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}

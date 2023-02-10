@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <div className="header">
         <img id="profileImg" src={img} alt="" />
-        <h4 className="headerName">Odemilin Eromosele</h4>
+        <h4 className="headerName">ODEMILIN EROMOSELE</h4>
       </div>
       <div className="headerAbout">
         <h2>About me</h2>
