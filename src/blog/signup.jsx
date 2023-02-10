@@ -1,6 +1,7 @@
 import React,{useRef, useEffect, useState} from 'react'
 import {useNavigate} from 'react-router-dom';
 import {postData} from './post'
+import Animate from './components/animation'
 export default function Signup() {
     const form = useRef()
     const navigate = useNavigate()
@@ -38,7 +39,9 @@ export default function Signup() {
     },[])
   return (
     <div>
-        <div ></div>
+        <div style={{position:'absolute',zIndex:'-3'}}>
+        <Animate />
+      </div>
         <form id='form'
         onSubmit={(e)=>{e.preventDefault()}}
         style={{

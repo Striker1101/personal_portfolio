@@ -40,6 +40,7 @@ export default function Nav() {
               borderRadius: "25px",
               border: "transparent",
               cursor: "pointer",
+              padding:' 5px',
               transition: "ease-in-out all .2s",
             }}
             className="search"
