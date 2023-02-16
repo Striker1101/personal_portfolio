@@ -4,23 +4,25 @@
 }
 
 .custom-shape-divider-top-1675432044 {
-    position: relative;
-    top: -10px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: relative;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -3;
+  top: -10px;
 }
 
 .custom-shape-divider-top-1675432044 svg {
-    position: relative;
-    display: block;
-    width: calc(132% + 1.3px);
-    height: 200px;
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 200px;
 }
 
 .custom-shape-divider-top-1675432044 .shape-fill {
-    fill:  rgb(160, 221, 221);
+  fill: black;
 }
 
 body {
@@ -33,24 +35,24 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .intro {
-  width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   margin: 0;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   align-items: center;
-  background-color: rgb(160, 221, 221);
-  background-image: url(./assets/intro.svg);
+  /* background-color: rgb(160, 221, 221); */
+  background-color: black;
+  overflow: hidden;
 }
 .intro > h1 {
   margin: 0;
   padding: 0;
+  width: fit-content;
+  color: azure;
 }
 .downArrow {
-  visibility: hidden;
   animation: 2s figgle 30 alternate;
-  margin: 0;
 }
 
 header {
@@ -149,15 +151,18 @@ a > img {
   align-items: center;
   width: 100vw;
 }
-.btn{
+.btn {
   margin: 0;
   padding: 0;
-
 }
 .item {
   border: 2px dashed black;
   min-width: 100px;
   height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 svg {
   margin-top: 10px;
@@ -181,7 +186,7 @@ svg {
   border-radius: 50px;
   height: 30px;
 }
-.show{
+.show {
   display: flex;
   gap: 10px;
 }
@@ -233,6 +238,78 @@ img {
   animation: 2s fadeInLeftBig 1 alternate;
 }
 
+#pin,
+#pin_2,
+#pin_3,
+#pin_4,
+#pin_5,
+#pin_6,
+#pin_7,
+#pin_14,
+#pin_15,
+#pin_16,
+#pin_17,
+#pin_18,
+#pin_19,
+#pin_20,
+#pin_28,
+#pin_29,
+#pin_30,
+#pin_31,
+#pin_32,
+#pin_33,
+#pin_34 {
+  animation: twinkkle 3s infinite ease-out alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+  z-index: 5;
+}
+
+#pin_7,
+#pin_8,
+#pin_9,
+#pin_10,
+#pin_11,
+#pin_12,
+#pin_13,
+#pin_21,
+#pin_22,
+#pin_23,
+#pin_24,
+#pin_25,
+#pin_26,
+#pin_27,
+#pin_35,
+#pin_36,
+#pin_37,
+#pin_38 {
+  animation: twinkkle_up 2s infinite ease-in-out alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes twinkkle {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}
+
+@keyframes twinkkle_up {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
 @keyframes fadeInLeftBig {
   from {
     opacity: 0;
@@ -262,7 +339,7 @@ img {
     margin-top: 0%;
   }
   to {
-    margin-top: 50%;
+    margin-top: 20%;
   }
 }
 
@@ -300,7 +377,7 @@ img {
 }
 
 @media (max-width: 700px) {
-  body{
+  body {
     margin: 0 5px;
   }
   .workcard {
