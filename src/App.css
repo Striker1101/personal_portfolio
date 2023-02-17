@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  
 }
 
 .custom-shape-divider-top-1675432044 {
@@ -26,7 +27,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,10 +140,7 @@ main {
   left: 100px;
   z-index: -2;
 }
-.skill {
-  width: 100vw;
-  border: 1px solid red;
-}
+
 .heading {
   color: black;
   width: fit-content;
@@ -160,14 +158,12 @@ a > img {
 }
 .itemContent {
   width: 100vw;
-  margin: 0;
-  padding: 0;
 }
 .items {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 .btn {
   margin: 0;
