@@ -25,7 +25,7 @@ export default function Home() {
               of hands in experience as a developer{" "}
             </p>
             <Anchor>
-              <a href="#work" class="button large scrolly">
+              <a href="#work">
                 Learn about what I do
               </a>
             </Anchor>

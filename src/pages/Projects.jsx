@@ -22,7 +22,7 @@ export default function Projects() {
         <main>
           {Data.map((item, i) => {
             return (
-              <Card variant="outlined" sx={{ width: 355 }}>
+              <Card key={i} variant="outlined" sx={{ width: 355 }}>
                 <div></div>
                 <CardMedia
                   component="img"

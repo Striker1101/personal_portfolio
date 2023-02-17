@@ -1,9 +1,9 @@
 const theme = {
   colors: {
-    nav: "black",
+    nav: "rgb(7, 5, 5)",
     header: "white",
-    body: "wheat",
-    footer: "grey",
+    body: "rgb(108, 142, 153)",
+    footer: "rgb(7, 5, 5)",
   },
   mobile: "765px",
 };

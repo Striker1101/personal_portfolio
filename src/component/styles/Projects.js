@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsStyled = styled.article`
-  padding-top: 10%;
+  padding-top: 5%;
   width: 100%;
   display: flex;
   flex-direction: column;

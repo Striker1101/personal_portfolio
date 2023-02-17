@@ -8,7 +8,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
+
       <ThemeProvider theme={theme}>
         <Global />
         <Routes>
@@ -16,7 +16,6 @@ function App() {
           <Route path="/blog/*" element={<Blog />} />
         </Routes>
       </ThemeProvider>
-    </div>
   );
 }
 

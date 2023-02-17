@@ -16,3 +16,10 @@ export const NavStyled = styled.nav`
     color: wheat;
   }
 `;
+
+export const Button = styled.button`
+  border: transparent;
+  color: wheat;
+  background-color: transparent;
+  font-size: large;
+`;
