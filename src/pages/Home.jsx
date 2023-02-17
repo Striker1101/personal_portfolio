@@ -9,11 +9,7 @@ export default function Home() {
     <Intro id="top">
       <Container>
         <Flex>
-          <div>
-            <span>
-              <img src={Pic} alt="profile" />
-            </span>
-          </div>
+          <img src={Pic} alt="profile" />
           <div>
             <header>
               <h1>
@@ -25,9 +21,7 @@ export default function Home() {
               of hands in experience as a developer{" "}
             </p>
             <Anchor>
-              <a href="#work">
-                Learn about what I do
-              </a>
+              <a href="#work">Learn about what I do</a>
             </Anchor>
           </div>
         </Flex>
