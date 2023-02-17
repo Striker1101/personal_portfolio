@@ -1,6 +1,6 @@
 import React from "react";
 import Animation from "./animation";
-import Welcome from './welcome'
+import Welcome from "./welcome";
 // import logo from "../assets/logo.png";
 export default function Intro() {
   return (
@@ -17,13 +17,13 @@ export default function Intro() {
             display: "flex",
             position: "relative",
             alignItems: "center",
-            flexDirection:'column',
+            flexDirection: "column",
           }}
           className="downArrow"
         >
           <Welcome />
           <h1
-            style={{ margin: "0 30px", width: "80%" }}
+            style={{ margin: "0 30px", width: "60%" }}
             className="introHeader"
           >
             Hy,
