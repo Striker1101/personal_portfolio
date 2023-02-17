@@ -22,7 +22,7 @@ function App() {
       }
     )
       .then((response) => response.json())
-      .then((data) => setPosts(data.posts));
+      .then((data) =>{ setPosts(data.posts); console.log(data.pots)});
   }, []);
 
   return (

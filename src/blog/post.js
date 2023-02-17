@@ -1,6 +1,4 @@
 const token = localStorage.getItem("token");
-console.log(token);
-
 export async function postData(url = "", data = {}) {
   // Default options are marked with *
   const response = await fetch(url, {
