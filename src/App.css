@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  
 }
 
 .custom-shape-divider-top-1675432044 {
@@ -399,7 +398,7 @@ img {
     margin: 3px;
   }
   .contactContainer {
-    padding: 0 20px;
+    margin: 0 25px;
   }
   .heading {
     color: yellow;
