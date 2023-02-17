@@ -4,13 +4,14 @@ import Data from "../data";
 export default function Projects() {
   return (
     <>
-      <div style={{ margin: "0 10px" }} className="cardContainer">
-        <h2 className="headereTwo">My Work</h2>
+      <div className="cardContainer">
+        <h1 className="headereTwo">My Work</h1>
         <div className="cards">
           {Data.map((item, i) => {
             return (
               <div className="workcard">
-                <img className="workCardimg" src={item.src} alt="cryptogram" />
+                <div className="cardLine"></div>
+                <img className="workCardimg" src={item.src} alt={item.header} />
                 <div className="workCardText">
                   <h3 className="heading">{item.header}</h3>
                   <div className="workcardBody">
