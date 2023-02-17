@@ -114,6 +114,8 @@ main {
   width: 100%;
   display: flex;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
   /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
 }
 .workCardimg {
@@ -139,6 +141,7 @@ main {
 }
 .skill {
   width: 100vw;
+  border: 1px solid red;
 }
 .heading {
   color: black;
@@ -225,12 +228,15 @@ svg {
   align-items: center;
   margin-left: 10px;
 }
-.form {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 2px;
+}
+#message {
+  width: 90%;
 }
 footer {
   display: flex;
@@ -239,6 +245,7 @@ footer {
   gap: 10px;
   position: relative;
   top: 200px;
+  padding: 0 20px;
 }
 
 img {
@@ -393,10 +400,10 @@ img {
 
 @media (max-width: 580px) {
   body {
-    margin: 0 5px;
+    margin: 3px;
   }
   .contactContainer {
-    margin: 0 10px;
+    padding: 0 20px;
   }
   .heading {
     color: yellow;
@@ -406,8 +413,8 @@ img {
     border-radius: 30px;
     height: 500px;
     position: absolute;
-    width: 66vw;
-    left: 70px;
+    width: 70vw;
+    /* left: 90px; */
     z-index: -2;
   }
   .workcard {
@@ -421,7 +428,7 @@ img {
     flex-direction: column;
   }
   .workCardimg {
-    width: 100%;
+    width: 80%;
   }
   .workCardText {
     position: relative;

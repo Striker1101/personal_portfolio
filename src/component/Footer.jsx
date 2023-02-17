@@ -2,10 +2,10 @@ import React from "react";
 import img from "../assets/use1.png";
 export default function Footer() {
   return (
-    <>
+    <div style={{ position: "relative" }}>
       <div className="contactContainer">
         <div className="contactText">
-          <h2 className="headereTwo">Contact me</h2>
+          <h2 className="headereTwo">Contact Me</h2>
           <p>
             I am currently looking for an opportunity, and if you have a
             question or just want to chat, feel free to send me a message and I
@@ -17,10 +17,10 @@ export default function Footer() {
           <form action="" id="form">
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="Name" />
-            <br></br>
+
             <label htmlFor="email">Email:</label>
             <input type="email" name="enail" id="email" placeholder="E-mail" />
-            <br></br>
+
             <textarea
               name="message"
               id="message"
@@ -42,6 +42,6 @@ export default function Footer() {
           <p>Address: 39 kilo street, off new era road</p>
         </span>
       </footer>
-    </>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import left from '../assets/left.svg'
 import right from '../assets/right.svg'
 export default function Items() {
   return (
-    <div className="skills" >
+    <div className="skills" style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}} >
         <h2 style={{textAlign: "center"}} className="headereTwo">Skills</h2>
         <div className="itemContent">
           <div className="items">
