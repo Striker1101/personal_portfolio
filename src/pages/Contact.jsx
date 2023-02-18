@@ -17,7 +17,7 @@ export default function contact() {
       <div>
         <header>
           <h2>Have me make stuff for you.</h2>
-          <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+          <p>Drop a message and i would reply by the Hour</p>
         </header>
         <main>
           <div>
@@ -40,12 +40,7 @@ export default function contact() {
               ></textarea>
               <tip>
                 <Click color="green" type="submit" value="Send Message" />
-                <Click
-                  color="red"
-                  type="reset"
-                  value="Clear Form"
-                  class="alt"
-                />
+                <Click color="red" type="reset" value="Clear Form" />
               </tip>
             </form>
           </div>

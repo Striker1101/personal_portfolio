@@ -1,9 +1,5 @@
 import React from "react";
-
+import { LoadingStyled } from "./Styles/Loading.style";
 export default function Loading() {
-  return (
-    <div className="loading" style={{ width: "100vw", height: "100vh" }}>
-      
-    </div>
-  );
+  return <LoadingStyled></LoadingStyled>;
 }

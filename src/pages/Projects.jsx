@@ -36,7 +36,7 @@ export default function Projects() {
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     {item.tool}
-                    {/* <p>{item.des}</p> */}
+                    <p>{item.des}</p>
                   </Typography>
                 </CardContent>
                 <CardActions>
