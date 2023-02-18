@@ -15,8 +15,8 @@ export default function Projects() {
         <header>
           <h2>Here’s some stuff I made recently.</h2>
           <p>
-            Proin odio consequat sapien vestibulum consequat lorem dolore
-            feugiat.
+            First two are collaboration with Devi Group, and the rest are
+            presonal project
           </p>
         </header>
         <main>
@@ -53,7 +53,11 @@ export default function Projects() {
           })}
         </main>
         <footer>
-          <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+          <p>
+            {" "}
+            CLick to see more of my work on{" "}
+            <a href="https://github.com/Striker1101">Github</a>
+          </p>
           <Anchor>
             <a href="#contact">Get in touch with me</a>
           </Anchor>

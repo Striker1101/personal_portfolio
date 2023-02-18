@@ -64,7 +64,7 @@ export default function contact() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="linkedin.com/in/eromosele-odemilin-2033aa242/">
                   <FaLinkedin />
                 </a>
               </li>
@@ -74,12 +74,12 @@ export default function contact() {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="mailto:goodluckodemilin@gmail.com">
                   <FaGoogle />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://github.com/Striker1101">
                   <FaGithub />
                 </a>
               </li>

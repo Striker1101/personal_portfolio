@@ -12,7 +12,7 @@ export default function Tools() {
       <div>
         <header>
           <h2>Here's all the stuff I do.</h2>
-          <p>This is a list of all the tools i make us of for development</p>
+          <p>This is a list of all the tools i make use of for development</p>
         </header>
         <main>
           {Skills.map((skill, index) => {
