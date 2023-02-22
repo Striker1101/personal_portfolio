@@ -7,7 +7,7 @@ export default function Index({ posts, setPosts }) {
   return (
     <HomepageStyled>
       <Line />
-      <Genre />
+      <Genre setPosts={setPosts} />
       {posts.length ? (
         <main>
           {posts.map((post, i) => {
