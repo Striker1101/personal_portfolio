@@ -1,6 +1,6 @@
 import React from "react";
 import { Anchor } from "../component/styles/Anchor";
-import Pic from "../assets/images/dummy.jpeg";
+import Pic from "../assets/images/profile2.jpg";
 import { Intro } from "../component/styles/Intro";
 import { Flex } from "../component/styles/Flex.styled";
 import { Container } from "../component/styles/Container.styled";

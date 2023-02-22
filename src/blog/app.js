@@ -1,4 +1,3 @@
-import "./blog.css";
 import React, { useEffect, useState } from "react";
 import BlogPage from "./blog_page";
 import { Routes, Route } from "react-router-dom";

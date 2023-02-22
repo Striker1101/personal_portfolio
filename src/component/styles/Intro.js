@@ -28,5 +28,10 @@ export const Intro = styled.article`
       flex-direction: column;
       align-items: center;
     }
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 200px;
+    }
   }
 `;

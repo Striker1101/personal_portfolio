@@ -15,6 +15,9 @@ export const NavStyled = styled.nav`
   a {
     color: wheat;
   }
+  button {
+    cursor: pointer;
+  }
 `;
 
 export const Button = styled.button`
