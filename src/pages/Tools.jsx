@@ -20,13 +20,21 @@ export default function Tools() {
               <Card
                 key={index}
                 variant="outlined"
-                sx={{ width: 345, height: 250 }}
+                sx={{ width: 345, height: "100%" }}
               >
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     {skill.header}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography
+                    variant="body9"
+                    color="red"
+                    style={{
+                      display: "flex",
+                      flexWrap: "wrap",
+                      flexDirection: "column",
+                    }}
+                  >
                     {skill.items.map((item, index) => {
                       return <p key={index}>{item}</p>;
                     })}

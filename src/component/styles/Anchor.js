@@ -10,7 +10,7 @@ export const Anchor = styled.h4`
   color: wheat;
   border-radius: 10px;
   transition: transform ease;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0);
   a {
     color: wheat;
   }

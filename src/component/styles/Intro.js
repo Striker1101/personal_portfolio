@@ -6,13 +6,13 @@ export const Intro = styled.article`
   justify-content: center;
   align-items: center;
   height: 92vh;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
   background: ${({ theme }) => theme.colors.header};
   img {
     width: 350px;
     height: 350px;
     border-radius: 200px;
+    box-shadow: 5px 4px 3px 2px lightskyblue;
   }
   p,
   h1 {

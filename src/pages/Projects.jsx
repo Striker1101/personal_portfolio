@@ -34,7 +34,7 @@ export default function Projects() {
                   <Typography gutterBottom variant="h5" component="div">
                     {item.header}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body7" color="text.primary">
                     {item.tool}
                     <p>{item.des}</p>
                   </Typography>

@@ -1,7 +1,15 @@
 const Skills = [
   {
     header: "LANGUAGUE",
-    items: ["JavaScript", "HTML", "CSS", "Jade"],
+    items: [
+      "JavaScript",
+      "Typescript",
+      "HTML",
+      "CSS",
+      "Jade",
+      "Kotlin",
+      "Python",
+    ],
   },
   {
     header: "TOOLS",
@@ -12,14 +20,22 @@ const Skills = [
       "Git",
       "Figma",
       "Photoshop",
-      "Webpack",
-      "Vercel",
       "Railway",
+      "Firebase",
+      "Mongosse",
+      "Sequelize",
     ],
   },
   {
     header: "FRAMEWORK",
-    items: ["NodeJS", "React", "Express", "Firebase", "NextJS"],
+    items: [
+      "React",
+      "Express",
+      "NextJS",
+      "React Native",
+      "Cordova",
+      "FlutterWave",
+    ],
   },
 ];
 export default Skills;
