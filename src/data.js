@@ -2,8 +2,8 @@ import cryptogram from "./assets/cryptogram.png";
 import whereswaldo from "./assets/wheres_waldo.png";
 
 import shoppingCart from "./assets/shoppingCart.png";
-import library from "./assets/library.png";
-import cvTemplate from "./assets/cv-template.png";
+import unity_trust from "./assets/unity_trust.png";
+import parkmile from "./assets/parkmile.png";
 import battleship from "./assets/battleship.png";
 const Data = [
   {
@@ -17,7 +17,7 @@ const Data = [
   {
     src: shoppingCart,
     header: "Shopping Cart",
-    des: " Proto-type shopping app for online accessory and game gadget  from fortnight apis, with custom component to render this shopping APi stream",
+    des: "Proto-type shopping app for online accessory and game gadget  from fortnight apis, with custom component to render this shopping APi stream",
     tool: "react",
     live_site: "https://striker1101.github.io/shopping-cart/",
     repo: "https://github.com/Striker1101/shopping-cart/",
@@ -31,11 +31,11 @@ const Data = [
     repo: "https://github.com/Striker1101/wheres-waldo",
   },
   {
-    src: cvTemplate,
-    header: "Cv-Template",
-    des: "React application that exports result to PDF using html2canvas and jsPDF.",
-    tool: "React",
-    live_site: "",
+    src: parkmile,
+    header: "Parkmile",
+    des: "Next js app with the no app source app and full routing functions and mui components ",
+    tool: "Next js, MUI components",
+    live_site: "https://parkmilemobile.com",
     repo: "https://github.com/Striker1101/cv-template",
   },
   {
@@ -47,12 +47,14 @@ const Data = [
     repo: "https://github.com/Striker1101/battleship",
   },
   {
-    src: library,
-    header: "Library app",
-    des: "  Dynamic route website, for users to perform any crud method on Books, with access to read and write directly to db",
-    tool: "Express, Monogodb, Mongosse",
-    live_site: "https://library-app.up.railway.app/catalog",
+    src: unity_trust,
+    header: "Unity Trust",
+    des: "",
+    tool: "Nextjs, Firebase, Cloudinary, CloudFlare",
+    live_site: "https://unity-trust.co.uk",
     repo: "",
   },
 ];
 export default Data;
+
+

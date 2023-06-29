@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { Anchor } from "../component/styles/Anchor";
+
 import { ProjectsStyled } from "../component/styles/Projects";
 export default function Projects() {
   return (
@@ -42,10 +43,14 @@ export default function Projects() {
                 <CardActions>
                   <Button size="small">
                     {" "}
-                    <a href={item.live_site}>Live Site</a>
+                    <a target="_blank" rel="noreferrer" href={item.live_site}>
+                      Live Site
+                    </a>
                   </Button>
                   <Button size="small">
-                    <a href={item.repo}>Github</a>
+                    <a target="_blank" rel="noreferrer" href={item.repo}>
+                      Github
+                    </a>
                   </Button>
                 </CardActions>
               </Card>
